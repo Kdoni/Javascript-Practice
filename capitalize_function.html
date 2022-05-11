@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function capitalize(x){
+            let kappa = x.charAt(0);
+            let miga = kappa.toUpperCase();
+            let keepo = x.substring(1);
+            let pog = keepo.toLowerCase();
+            return miga + pog;
+            
+        }
+        let word = prompt("Please insert a word:");
+        console.log(capitalize(word));
+    </script>
+</body>
+</html>
